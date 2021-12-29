@@ -3,5 +3,9 @@ table {
 }
 h1 {
     text-align: center;
-    color: aquamarine;
+    color: rgb(12, 104, 241);
+}
+
+body {
+    overflow-x: hidden;
 }

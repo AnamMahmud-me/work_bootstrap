@@ -1,0 +1,24 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+}
+
+.form-login {
+    background: rgba(236,240,241,.35);
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+    max-width: 450px;
+    margin: auto;
+}
+
+.btn-primary {
+    border: 0;
+}
+.btn-primary:hover {
+    background-color: gold;
+}

@@ -13,7 +13,14 @@ body {
 
 
  .icons img {
-    width: 100px;
+    width: 80px;
+  }
+  .icons img:hover {
+    transform: scale(.8);
+    transition: 0.5s;
+  }
+  .xyz {
+    text-align: center;
   }
   
   .icons ul {
@@ -40,5 +47,5 @@ body {
     background-color: rgb(197, 24, 47);
     color: orange;
     transition: 0.5s;
-    transform: scale(1.2);
+    transform: rotate(-360deg);
   }

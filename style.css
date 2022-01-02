@@ -9,3 +9,36 @@ h1 {
 body {
     overflow-x: hidden;
 }
+
+
+
+ .icons img {
+    width: 100px;
+  }
+  
+  .icons ul {
+    margin: 15px 0 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+  }
+  .icons li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .icons a {
+    height: 80px;
+    width: 80px;
+    display: block;
+    padding-top: 10px;
+    background-color: #cf4a4a;
+    color: #fff;
+    font-size: 40px;
+    border-radius: 50%;
+  }
+  .icons a:hover {
+    background-color: rgb(197, 24, 47);
+    color: orange;
+    transition: 0.5s;
+    transform: scale(1.2);
+  }

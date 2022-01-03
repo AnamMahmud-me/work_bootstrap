@@ -47,5 +47,5 @@ body {
     background-color: rgb(197, 24, 47);
     color: orange;
     transition: 0.5s;
-    transform: rotate(-360deg);
+    transform: rotate(-360deg) scale(1.2);
   }
